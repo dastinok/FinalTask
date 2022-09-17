@@ -15,5 +15,10 @@ class Program
 
         Console.WriteLine("Вы ввели следующие строки:");
         Console.Write("[");
+
+         for (int i = 0; i < Array.Length; i++)
+        {
+            Console.Write(Array[i] + "  ");
+        }
     }
 }
