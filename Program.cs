@@ -20,5 +20,20 @@ class Program
         {
             Console.Write(Array[i] + "  ");
         }
+         Console.WriteLine("]");
+
+        Console.WriteLine("");
+        Console.WriteLine("Длина строки равно или меньше 3-х символов: ");
+
+        Console.Write("[");
+        var newArray = Array.Where(x => x.Length <= 3).ToArray();
+        for (int i = 0; i < newArray.Length; i++)
+        {
+            Console.Write(newArray[i] + "  ");
+        }
+        Console.WriteLine("]");
+        Console.Write("Нажмите [Enter] для выхода...");
+        Console.ReadLine();
     }
 }
+    
