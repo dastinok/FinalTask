@@ -14,5 +14,6 @@ class Program
         }
 
         Console.WriteLine("Вы ввели следующие строки:");
+        Console.Write("[");
     }
 }
